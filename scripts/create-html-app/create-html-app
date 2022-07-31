@@ -1,0 +1,14 @@
+#! /bin/bash
+
+if [ $# != 1 ]; then
+	echo "You must enter one command-line argument: the directory of your app"
+else
+	mkdir $1
+	cd $1
+	touch index.html
+	cat ~/scripts/create-html-app/index.html >> index.html
+	touch style.css
+	touch script.js
+	mkdir assets
+	echo "Created your html app in directory $1/" 
+fi

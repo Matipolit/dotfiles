@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "80" > /sys/devices/platform/lg-laptop/battery_care_limit
