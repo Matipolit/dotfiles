@@ -6,7 +6,7 @@ require('lualineConfig')
 require('treesitterConfig')
 require('autoTagPair')
 
-
+vim.opt.guifont = { "JetBrainsMono Nerd Font" }
 vim.cmd[[colorscheme dracula]]
 vim.cmd[[
 set tabstop=4       " number of visual spaces per TAB

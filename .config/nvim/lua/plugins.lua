@@ -15,6 +15,8 @@ return require('packer').startup(function(use)
 	use 'Mofiqul/dracula.nvim'
 	use 'windwp/nvim-ts-autotag'
 	use 'windwp/nvim-autopairs'
+	use 'simrat39/rust-tools.nvim'
+	use 'voldikss/vim-floaterm'
 	use {
   	'kyazdani42/nvim-tree.lua',
   	requires = {

@@ -1,9 +1,9 @@
 local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
+capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
 local lspconfig = require('lspconfig')
 
-local servers = {'pyright', 'tsserver', 'clangd'}
+local servers = {'pyright', 'tsserver', 'clangd', 'bashls', 'phpactor', 'rust_analyzer', 'ocamllsp'}
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
     -- on_attach = my_custom_on_attach,

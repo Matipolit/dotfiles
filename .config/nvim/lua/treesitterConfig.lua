@@ -23,6 +23,7 @@ ts.setup {
     "html",
     "lua",
     "c",
+    "rust",
     "cpp",
     "vim"
   },

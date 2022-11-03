@@ -5,3 +5,6 @@ require'lspconfig'.tsserver.setup{
 require'lspconfig'.sumneko_lua.setup{}
 require('lspconfig').clangd.setup{}
 require'lspconfig'.bashls.setup{}
+require'lspconfig'.phpactor.setup{}
+require'lspconfig'.rust_analyzer.setup{}
+require'lspconfig'.ocamllsp.setup{}
