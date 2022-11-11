@@ -1,0 +1,15 @@
+#! /bin/bash
+
+if [ $# != 1 ]; then
+	echo "You must enter one command-line argument: the name of your app"
+else
+	mkdir $1
+	cd $1
+	touch $1.cpp
+	cat ~/scripts/create-cpp-app/basic.cpp >> $1.cpp
+	mkdir include
+	echo "#!/bin/bash" >> build.sh
+	echo g++ $1.cpp -o $1 -I include/ -Wfloat-conversion -Wsign-conversion -O2 -Wall >> build.sh
+	chmod +x build.sh
+	echo Created your c++ app in directory $1/
+fi
