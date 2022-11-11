@@ -115,5 +115,6 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/scripts/:$PATH"
 export PATH="$HOME/scripts/create-html-app/:$PATH"
 export PATH="$HOME/scripts/create-c-app/:$PATH"
+export PATH="$HOME/scripts/create-cpp-app/:$PATH"
 
 alias config='/usr/bin/git --git-dir=/home/matip/.cfg/ --work-tree=/home/matip'
