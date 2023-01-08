@@ -1,0 +1,7 @@
+theme = "dracula"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.lsp]
+display-messages = true
