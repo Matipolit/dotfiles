@@ -110,11 +110,16 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#change default editor
+export VISUAL=helix;
+export EDITOR=helix;
+
 # additional folders to PATH
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/scripts/:$PATH"
 export PATH="$HOME/scripts/create-html-app/:$PATH"
 export PATH="$HOME/scripts/create-c-app/:$PATH"
 export PATH="$HOME/scripts/create-cpp-app/:$PATH"
-
+export PATH="$HOME/.cargo/bin/:$PATH"
+export PATH="$HOME/node_modules/.bin/:$PATH"
 alias config='/usr/bin/git --git-dir=/home/matip/.cfg/ --work-tree=/home/matip'
