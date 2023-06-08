@@ -122,4 +122,5 @@ export PATH="$HOME/scripts/create-c-app/:$PATH"
 export PATH="$HOME/scripts/create-cpp-app/:$PATH"
 export PATH="$HOME/.cargo/bin/:$PATH"
 export PATH="$HOME/node_modules/.bin/:$PATH"
+export PATH="$HOME/bin/:$PATH"
 alias config='/usr/bin/git --git-dir=/home/matip/.cfg/ --work-tree=/home/matip'
