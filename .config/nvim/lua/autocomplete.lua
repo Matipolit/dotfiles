@@ -3,7 +3,7 @@ capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
 local lspconfig = require('lspconfig')
 
-local servers = {'pyright', 'tsserver', 'clangd', 'bashls', 'phpactor', 'rust_analyzer', 'ocamllsp'}
+local servers = {'pyright', 'tsserver', 'clangd', 'bashls', 'phpactor', 'rust_analyzer', 'ocamllsp', 'metals'}
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
     -- on_attach = my_custom_on_attach,

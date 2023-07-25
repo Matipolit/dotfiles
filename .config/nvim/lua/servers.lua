@@ -3,7 +3,7 @@ nvim_lsp.pyright.setup{}
 nvim_lsp.tsserver.setup{
   filetypes = { "typescript", "typescriptreact", "typescript.tsx", "javascript", "javascriptreact", "javascript.jsx" }
 }
-nvim_lsp.sumneko_lua.setup{}
+nvim_lsp.lua_ls.setup{}
 nvim_lsp.clangd.setup{}
 nvim_lsp.bashls.setup{}
 nvim_lsp.phpactor.setup{}
@@ -17,3 +17,4 @@ nvim_lsp.metals.setup{
 nvim_lsp.cssls.setup{}
 nvim_lsp.html.setup{}
 nvim_lsp.svelte.setup{}
+nvim_lsp.java_language_server.setup{}
